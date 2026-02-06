@@ -1,10 +1,18 @@
 # Planning with Teams
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blue)](https://code.claude.com/docs/en/plugins)
+[![Agent Teams](https://img.shields.io/badge/Agent%20Teams-Enabled-blueviolet)](https://code.claude.com/docs/en/agent-teams)
+[![Experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://code.claude.com/docs/en/agent-teams)
+[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)](https://github.com/OthmanAdi/planning-with-teams/releases)
+[![GitHub stars](https://img.shields.io/github/stars/OthmanAdi/planning-with-teams?style=social)](https://github.com/OthmanAdi/planning-with-teams)
+[![Opus 4.6](https://img.shields.io/badge/Opus%204.6-Compatible-cc785c)](https://anthropic.com/news/claude-opus-4-6)
+
 **Manus-style context engineering for Claude Code Agent Teams.**
 
 Coordinate multiple Claude Code instances with shared planning files, structured task assignment, and persistent working memory. The first skill to apply proven context engineering methodology to multi-agent workflows.
 
-Based on [planning-with-files](https://github.com/nibzard/planning-with-files) methodology.
+> From the creator of [planning-with-files](https://github.com/OthmanAdi/planning-with-files) (13K+ stars)
 
 ---
 
@@ -62,7 +70,7 @@ export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
 
 ```bash
 # Add marketplace
-/plugin marketplace add nibzard/planning-with-teams
+/plugin marketplace add OthmanAdi/planning-with-teams
 
 # Install plugin
 /plugin install planning-with-teams
@@ -70,7 +78,7 @@ export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
 
 Or clone manually:
 ```bash
-git clone https://github.com/nibzard/planning-with-teams.git ~/.claude/plugins/planning-with-teams
+git clone https://github.com/OthmanAdi/planning-with-teams.git ~/.claude/plugins/planning-with-teams
 ```
 
 ### 3. Use It
@@ -221,7 +229,7 @@ Agent Teams are expensive. Use them when parallel exploration genuinely adds val
 
 ## Related Projects
 
-- [planning-with-files](https://github.com/nibzard/planning-with-files) — Single-agent planning (the foundation)
+- [planning-with-files](https://github.com/OthmanAdi/planning-with-files) — Single-agent planning (the foundation)
 - [Claude Code Agent Teams Docs](https://code.claude.com/docs/en/agent-teams) — Official documentation
 
 ---
