@@ -36,7 +36,7 @@ Settings.json locations:
 
 ```bash
 # Add the marketplace
-/plugin marketplace add nibzard/planning-with-teams
+/plugin marketplace add OthmanAdi/planning-with-teams
 
 # Install the plugin
 /plugin install planning-with-teams
@@ -46,7 +46,7 @@ Settings.json locations:
 
 ```bash
 # Clone to plugins directory
-git clone https://github.com/nibzard/planning-with-teams.git ~/.claude/plugins/planning-with-teams
+git clone https://github.com/OthmanAdi/planning-with-teams.git ~/.claude/plugins/planning-with-teams
 ```
 
 ### Option C: Copy to Skills Directory

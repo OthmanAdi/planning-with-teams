@@ -8,7 +8,7 @@
     {
       "name": "planning-with-teams",
       "source": "./",
-      "description": "Manus-style context engineering for Claude Code Agent Teams. Coordinate multiple agents with shared planning files, structured task assignment, and persistent memory. From the creator of planning-with-files.",
+      "description": "Manus-style context engineering for Claude Code Agent Teams. Coordinate multiple agents with shared planning files, structured task assignment, and persistent memory. Based on planning-with-files methodology.",
       "version": "1.0.0"
     }
   ]

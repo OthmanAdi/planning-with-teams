@@ -1,0 +1,54 @@
+# Planning files (user creates these in their projects, not in the skill repo)
+team_plan.md
+team_findings.md
+team_progress.md
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Node (if any tooling added later)
+node_modules/
+npm-debug.log*
+
+# Logs
+*.log
+logs/
+
+# Test artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+*.local
+
+# Archives
+*.zip
+*.tar.gz
+*.7z
