@@ -5,6 +5,7 @@
 [![Agent Teams](https://img.shields.io/badge/Agent%20Teams-Enabled-blueviolet)](https://code.claude.com/docs/en/agent-teams)
 [![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)](https://github.com/OthmanAdi/planning-with-teams/releases)
 [![Opus 4.6](https://img.shields.io/badge/Opus%204.6-Compatible-cc785c)](https://anthropic.com/news/claude-opus-4-6)
+[![skillcheck passed](https://raw.githubusercontent.com/olgasafonova/skillcheck-free/main/skill-check/passed.svg)](https://getskillcheck.com)
 
 **Manus-style context engineering for Claude Code Agent Teams.**
 
