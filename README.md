@@ -11,7 +11,7 @@
 
 Coordinate multiple Claude Code instances with shared planning files, structured task assignment, and persistent working memory. The first skill to apply proven context engineering methodology to multi-agent workflows.
 
-> From the creator of [planning-with-files](https://github.com/OthmanAdi/planning-with-files) (13K+ stars)
+> Based on [planning-with-files](https://github.com/OthmanAdi/planning-with-files) methodology
 
 ---
 
