@@ -1,0 +1,15 @@
+{
+  "name": "planning-with-teams",
+  "owner": {
+    "name": "Ahmad Othman Ammar Adi",
+    "url": "https://github.com/OthmanAdi"
+  },
+  "plugins": [
+    {
+      "name": "planning-with-teams",
+      "source": "./",
+      "description": "Manus-style context engineering for Claude Code Agent Teams. Coordinate multiple agents with shared planning files, structured task assignment, and persistent memory. From the creator of planning-with-files.",
+      "version": "1.0.0"
+    }
+  ]
+}
