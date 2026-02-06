@@ -15,6 +15,46 @@ Coordinate multiple Claude Code instances with shared planning files, structured
 
 ---
 
+## ⚠️ IMPORTANT: Agent Teams Must Be Enabled
+
+<details>
+<summary><strong>Click to expand - You MUST enable Agent Teams before using this skill</strong></summary>
+
+### Why This Matters
+
+Without Agent Teams enabled, this skill will fall back to using Task subagents. While subagents work, they **cannot** use the native Agent Teams features:
+- ❌ No peer-to-peer messaging between teammates
+- ❌ No Teammate, SendMessage, TaskCreate tools
+- ❌ Limited to Task tool (standard subagents)
+
+### How to Enable
+
+**Option 1: Settings.json (Recommended)**
+
+Add this to `~/.claude/settings.json`:
+```json
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  }
+}
+```
+
+**Option 2: Environment Variable**
+
+Add to your shell profile (`~/.bashrc`, `~/.zshrc`, etc.):
+```bash
+export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
+```
+
+### Verify It's Enabled
+
+After enabling, **restart Claude Code** and check that the skill uses "Agent Teams" mode instead of "Task subagents" mode in the team plan.
+
+</details>
+
+---
+
 ## Why This Exists
 
 Claude Code's [Agent Teams](https://code.claude.com/docs/en/agent-teams) feature lets you coordinate multiple Claude instances working in parallel. But without proper coordination:
