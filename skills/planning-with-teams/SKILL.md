@@ -1,6 +1,6 @@
 ---
 name: planning-with-teams
-version: "1.0.0"
+version: "1.1.0"
 description: Manus-style context engineering for Agent Teams. Coordinate multiple Claude Code instances with shared planning files. Use when complex tasks need parallel work (code review, debugging, feature development). Requires CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1.
 category:
   - development

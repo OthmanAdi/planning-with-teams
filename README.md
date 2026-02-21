@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blue)](https://code.claude.com/docs/en/plugins)
 [![Agent Teams](https://img.shields.io/badge/Agent%20Teams-Enabled-blueviolet)](https://code.claude.com/docs/en/agent-teams)
-[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)](https://github.com/OthmanAdi/planning-with-teams/releases)
+[![Version](https://img.shields.io/badge/version-1.1.0-brightgreen)](https://github.com/OthmanAdi/planning-with-teams/releases)
 [![Opus 4.6](https://img.shields.io/badge/Opus%204.6-Compatible-cc785c)](https://anthropic.com/news/claude-opus-4-6)
 [![skillcheck passed](https://raw.githubusercontent.com/olgasafonova/skillcheck-free/main/skill-check/passed.svg)](https://getskillcheck.com)
 
@@ -174,11 +174,15 @@ Use planning-with-teams for coordination.
 
 ## Commands
 
-| Command | Description |
-|---------|-------------|
-| `/team` | Start team planning with guided setup |
-| `/spawn-team` | Quick spawn team for a task |
-| `/team-status` | Get comprehensive status report |
+| Command | Autocomplete | Description |
+|---------|--------------|-------------|
+| `/planning-with-teams:plan` | Type `/plan` | Start team planning (v1.1.0+) |
+| `/planning-with-teams:status` | Type `/status` | Show team progress at a glance (v1.1.0+) |
+| `/planning-with-teams:team` | Type `/team` | Guided team setup |
+| `/planning-with-teams:spawn-team` | Type `/spawn` | Quick spawn team for a task |
+| `/planning-with-teams:team-status` | — | Get comprehensive status report |
+
+> **New in v1.1.0:** `/plan` and `/status` commands for consistency with [planning-with-files](https://github.com/OthmanAdi/planning-with-files).
 
 ---
 
