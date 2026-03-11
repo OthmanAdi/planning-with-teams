@@ -52,3 +52,6 @@ htmlcov/
 *.zip
 *.tar.gz
 *.7z
+
+# Upgrade planning files
+UPGRADE_PLAN.md
