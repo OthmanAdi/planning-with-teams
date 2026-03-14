@@ -105,7 +105,18 @@ export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
 }
 ```
 
-### 2. Install the Plugin
+### 2. Install the Skill
+
+```bash
+npx skills add OthmanAdi/planning-with-teams --skill planning-with-teams -g
+```
+
+Works with Claude Code, Cursor, Codex, Gemini CLI, and 40+ agents supporting the [Agent Skills](https://agentskills.io) spec.
+
+<details>
+<summary><strong>🔧 Claude Code Plugin (Advanced Features)</strong></summary>
+
+For Claude Code-specific features like `/team` autocomplete commands:
 
 ```bash
 # Add marketplace
@@ -119,6 +130,8 @@ Or clone manually:
 ```bash
 git clone https://github.com/OthmanAdi/planning-with-teams.git ~/.claude/plugins/planning-with-teams
 ```
+
+</details>
 
 ### 3. Use It
 
