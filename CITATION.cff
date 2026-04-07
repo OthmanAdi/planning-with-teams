@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "planning-with-teams"
+abstract: "Manus-style context engineering for Claude Code Agent Teams. Coordinate multiple Claude instances with shared planning files for parallel autonomous work on complex tasks."
+authors:
+  - family-names: Adi
+    given-names: Ahmad Othman Ammar
+    alias: OthmanAdi
+version: "2.0.0"
+date-released: "2026-03-11"
+license: MIT
+url: "https://github.com/OthmanAdi/planning-with-teams"
+repository-code: "https://github.com/OthmanAdi/planning-with-teams"
+keywords:
+  - claude-code
+  - agent-skill
+  - multi-agent
+  - planning
+  - team-coordination
+  - manus-style
+  - autonomous-agents
