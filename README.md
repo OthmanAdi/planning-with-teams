@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/OthmanAdi/planning-with-teams">
+    <img src="https://raw.githubusercontent.com/OthmanAdi/planning-with-teams/master/media/banner-v2.png" alt="Planning with Teams" width="900">
+  </a>
+</p>
+
 # Planning with Teams
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
