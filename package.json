@@ -1,0 +1,36 @@
+{
+  "name": "planning-with-teams",
+  "version": "2.0.0",
+  "description": "Manus-style context engineering for Claude Code Agent Teams. Coordinate multiple agents through shared planning files on disk.",
+  "keywords": [
+    "pi-package",
+    "pi-skill",
+    "agent-teams",
+    "planning",
+    "context-engineering",
+    "claude-code",
+    "agent-skill",
+    "skill"
+  ],
+  "pi": {
+    "skills": [
+      "skills/planning-with-teams/SKILL.md"
+    ]
+  },
+  "files": [
+    "README.md",
+    "skills/planning-with-teams/",
+    "!**/__pycache__",
+    "!**/*.pyc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OthmanAdi/planning-with-teams.git"
+  },
+  "author": "Ahmad Othman Ammar Adi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OthmanAdi/planning-with-teams/issues"
+  },
+  "homepage": "https://github.com/OthmanAdi/planning-with-teams#readme"
+}

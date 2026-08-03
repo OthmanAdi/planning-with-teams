@@ -117,6 +117,8 @@ export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
 npx skills add OthmanAdi/planning-with-teams --skill planning-with-teams -g
 ```
 
+Or from npm: `pi install npm:planning-with-teams` ([package](https://www.npmjs.com/package/planning-with-teams))
+
 Works with Claude Code, Cursor, Codex, Gemini CLI, and 40+ agents supporting the [Agent Skills](https://agentskills.io) spec.
 
 <details>
